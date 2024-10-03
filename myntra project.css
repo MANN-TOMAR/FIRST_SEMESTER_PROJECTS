@@ -1,0 +1,512 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+}
+header
+{
+    height: 80px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    font-weight: bolder;
+    background:white;
+    border-bottom: 1px solid #f6f6f6;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+    width: 100%;
+
+}
+#logo a
+{
+    height: 80px;
+    width: 53px;
+}
+#logo a img
+{
+    height:45px ;
+    margin-left: 4%;
+}
+ #navbar
+{
+    min-width: 515px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0px 5px;
+}
+#navbar a
+{
+    font-size: 14px;
+    /* letter-spacing: 3px; */
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    margin: 0px 2.5px;
+}
+#navbar a:hover
+{
+    border-bottom: 3.5px solid red;
+}
+#navbar a sup
+{
+    color: red;
+    font-size: 10px;
+
+}
+#searchbar
+{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 40px;
+    min-width: 400px;
+    width: 30%;
+   
+}
+#searchbar span{
+    box-sizing: content-box;
+    height:20px ;
+    background: #f5f5f6;
+    color: #282c3f;
+    padding: 10px;
+    border-radius: 5px 0px 0px 5px;
+
+}
+#searchbar input
+{
+    background: #f5f5f6;
+    color: #696e79;
+    flex-grow: .6;
+    height: 40px;
+    border-radius: 0px 5px 5px 0px;
+    border: 0;
+}
+#actionbar
+{
+    margin-right: 4%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 194px;
+    height: 40px;
+    margin: 30px;
+}
+.actioncontainer 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/*#eight
+{
+    background-color:whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#eight div,input
+{
+    background-color: whitesmoke;
+}
+#eight div
+{
+    padding: 8px 0px 2px 0px;
+    height: 39.6px;
+    width: 40.8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#eight input
+{
+    padding: 8px 10px 10px 8px;
+    height: 39.6px;
+    width: 324.8px;
+} */
+
+/* #second
+{
+    height:80.8px ;
+    width:64.4px ;
+}
+#second a
+{
+    height: 62.4px;
+    width: 46.4px;
+}
+#third
+{
+    height:80.8px ;
+    width: 83.86px; 
+}*/
+
+/* #second a
+{
+    height: ;
+    width: ;
+    padding: 
+} */
+/* #third
+{
+    height:80.8px ;
+    width: ;
+    padding: 
+} */
+/* #second a
+{
+    height: ;
+    width: ;
+    padding: 
+} */
+/* #third
+{
+    height:80.8 px;
+    width: ;
+    padding: 
+}
+#second a
+{
+    height: ;
+    width: ;
+    padding: 
+}
+#third
+{
+    height:80.8px ;
+    width: ;
+    padding: 
+} */
+/* sup
+{
+    color: red;
+}*/
+#banner_container
+{
+    margin-top: 100px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+#banner_container a img
+{
+    width: 100%;
+    position: relative;
+    left: 0px;
+    margin-top:5px ;
+    margin-bottom: 5px;
+}
+
+#banner_container #main1 img
+{
+    width: 50%;
+    position: relative;
+    left: 0px;
+}
+#banner_container #main2 img
+{
+    width: 50%;
+    position: relative;
+    right: 0px;
+}
+#coupon #first
+{
+    width: 50%;
+    position: relative;
+    left: 0px ;
+}
+#coupon #second
+{
+    width: 50%;
+    position: relative;
+    right: 0px;
+}
+#bigsalealldays
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 7px;
+    margin-right: 7px;
+
+}
+#bigsalealldays a img 
+{
+    height:317.712px ;
+    width: 242px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#special
+{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#categoryspecial
+{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+#categoryspecial a img
+{
+    height: 316.11px;
+    width: 242px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+#todownloadmyntra a img 
+{
+
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+main{
+    border-bottom: 2px solid #fafbfc;
+}
+footer
+{
+    background-color:#FAFBFC;
+    margin: 30px 0 40px 0;
+    display: flex;
+    flex-direction: column;
+    height: 679px;
+    width: 1455.2px;
+    align-items: center;
+    padding-top: 20px;
+    align-items: center;
+    width: 100%;
+}
+footer div
+{
+    display: flex;
+    flex-direction: column;
+}
+#foot1
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom:24px;
+    /* border-bottom: 1px solid #e7e6e6 ; */
+    height:428px ;
+    width: 1080px;
+    /* padding-bottom: 50px; */
+    box-sizing: content-box;
+    /* font-size: 94%; */
+}
+#foot1 div
+{
+    font-weight: 400;
+    font-size: medium;
+}
+#foot1 div a
+{
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+#foot2
+{
+    display: flex;
+    flex-direction: column;
+    height:131px ;
+    width: 1080px;
+    border-bottom: 1px solid #e7e6e6 ;
+}
+#foot2 div
+{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-evenly; */
+    flex-wrap: wrap;
+    font-weight: 400;
+    font-size:85%;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    
+
+}
+/* #foot2 div a
+{
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+} */
+#popular
+ {
+    /*box-sizing: content-box;
+    z-index: 1; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+#popular div
+{
+    margin: 0 10px 0 0 ;
+}
+#popular hr
+{
+    /* font-weight: ; */
+    z-index: 1;
+    flex-grow: 100%;
+    width: 920.01px;
+    color:#e7e6e6  ;
+    
+}
+#text
+{
+    height:20.8px ;
+    width: 1080px;
+    margin: 40px 0 0 0;
+    display: flex;
+    flex-direction: row;
+    /* justify-content:space-between; */
+}
+#text #textfirst
+{
+    height:20.8px ;
+    width:326.66px ;
+    display: flex;
+    justify-content: start;
+}
+#text #textfirst a
+{
+    color: blue;
+}
+#text #second
+{
+    height:20.8px ;
+    width:326.66px ;
+    margin: 0 0 0 100px;
+    
+}
+#text #textthird
+{
+    height:20.8px ;
+    width:326.8px ;
+    justify-content: end;
+}
+
+footer div div
+/* {
+    display: flex;
+    flex-direction: column;
+} */
+.heading
+{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: smaller;
+}
+/* footer #foot1 #thirdfooter a
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    flex-direction: row;
+} */
+footer div div a
+{
+    text-decoration: none;
+    color:#757a84;
+}
+footer div div div
+{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+#footerimgcontainer
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+
+}
+#footer1
+{
+    height:42px ;
+    width: 139.82px;
+    /* width: 50%; */
+    order: 1;
+}
+#footer2
+{
+    height:42px ;
+    width:122.54px ;
+    order: 2;
+
+}
+#icons
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+.footicon
+{
+    margin: 20px;
+}
+#firstfooter
+{
+    height:428px ;
+    width:174px ;
+}
+#secondfooter
+{
+    height: 295.2px;
+    width: 162px;
+}
+#thirdfooter
+{
+    height:176.2px ;
+    width: 380px;
+}
+#fourthfooter
+{
+    height:158.2px ;
+    width:250px ;
+}
+#lastimg1
+{
+    height: 40px;
+    width: 48px;
+}
+#lastimg2
+{
+    height:49px ;
+    width:48px ;
+
+}
+#lastimgcontainer1,#lastimgcontainer2
+{
+    display: flex;
+    flex-direction: row;
+}
+#lastlinks
+{
+    display: flex;
+    flex-direction:row ;
+    flex-wrap: wrap;
+}
+footer #foot2
+{
+    display: flex;
+    justify-content:space-evenly;
+}
+#foot2 div div a
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
