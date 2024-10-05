@@ -1,0 +1,19 @@
+body{
+    background-color: black; color: white;
+}
+#mann
+{
+    text-decoration: line-through double;text-decoration-color: hotpink;
+}
+#farmer
+{
+    text-decoration: overline wavy;text-decoration-color:skyblue;
+}
+#location
+{
+    text-decoration: none;
+}
+#district
+{
+    text-decoration: underline dashed;text-decoration-color:lightgreen ;
+}

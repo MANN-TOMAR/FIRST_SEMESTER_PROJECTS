@@ -1,0 +1,19 @@
+body{
+    background-color: black; color: white;
+}
+#first
+{
+    font-size: 5px;
+}
+#second
+{
+    font-size: 15px;
+}
+#third
+{
+    font-size: 25px;
+}
+#fourth
+{
+    font-size: 35px;
+}

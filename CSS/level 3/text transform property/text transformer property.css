@@ -1,0 +1,19 @@
+body{
+    background-color: black;color: white;
+}
+#name
+{
+    text-transform: uppercase;
+}
+#farmer
+{
+    text-transform: none;
+}
+#location
+{
+    text-transform: capitalize;
+}
+#lorem
+{
+    text-transform: lowercase;
+}

@@ -1,0 +1,5 @@
+body{background-color: black;color: white;}
+#first{font-style: italic;}
+#second{font-style: oblique;}
+#third{font-style: normal;}
+#fourth{font-style:inherit;}
