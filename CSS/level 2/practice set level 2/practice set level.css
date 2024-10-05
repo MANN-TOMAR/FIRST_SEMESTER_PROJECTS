@@ -1,0 +1,14 @@
+#practice
+{
+    color: rgba(255, 0, 0,0.5);background-color: black;font-family: Verdana, Geneva, Tahoma, sans-serif;font-size: 2000%;
+}
+main
+{
+    color: rgb(255, 238, 0);background-color: rgb(40, 200, 165);font-family: Verdana, Geneva, Tahoma, sans-serif;font-size: 2000%;width: fit-content;
+}
+#mann
+{
+height: 500px;width: 1000px;;
+background: url(images/mann.jpg) yellow no-repeat center;
+color: white;
+}
