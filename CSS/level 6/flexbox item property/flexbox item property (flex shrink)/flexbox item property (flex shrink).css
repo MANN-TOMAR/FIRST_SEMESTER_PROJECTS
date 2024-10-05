@@ -1,0 +1,40 @@
+body
+{
+    background-color: black;color: white;margin: 0px;padding: 0px;
+}
+header
+{
+    background-color: white;color: black;text-transform: uppercase;text-align: center;
+}
+#CONTAINER
+{
+    background-color: skyblue;border: 5px solid white;height: 500px;width: 1250px;margin: 50px;padding: 20px;display: flex;
+}
+.box
+{
+    height: 300px;width: 300px;margin: 5px;border: 5px solid black;
+}
+#FIRST
+{
+    background-color: hotpink;
+}
+#SECOND
+{
+    background-color: blue;flex-shrink: 0;
+}
+#THIRD
+{
+    background-color: yellow;
+}
+#FOURTH
+{
+    background-color: aqua;
+}
+#FIVE
+{
+    background-color:darkgreen;
+}
+#SIXTH
+{
+    background-color:darkorange;
+}

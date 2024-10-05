@@ -1,0 +1,62 @@
+body {
+    background-color: black;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    color: black;
+}
+
+header {
+    background-color: white;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#CONTAINER {
+    background-color: skyblue;
+    border: 5px solid white;
+    height: 500px;
+    width: 1250px;
+    margin: 50px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    border: 5px solid black;
+}
+
+#FIRST {
+    background-color: hotpink;
+    order: 4;
+}
+
+#SECOND {
+    background-color: blue;
+    order: 5;
+}
+
+#THIRD {
+    background-color: yellow;
+    orphans: 3;
+}
+
+#FOURTH {
+    background-color: aqua;
+    order: 2;
+}
+
+#FIVE {
+    background-color: darkgreen;
+    order: 6;
+}
+
+#SIXTH {
+    background-color: darkorange;
+    order: 1;
+}

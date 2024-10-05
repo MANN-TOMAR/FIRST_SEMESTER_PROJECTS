@@ -1,0 +1,181 @@
+body
+{
+    background-color: black;color: white;margin: 0px;padding: 0px;
+}
+header
+{
+    background-color: white;color: black;text-transform: uppercase;text-align: center;
+}
+#CONTAINER1
+{
+    background-color: skyblue;border: 5px solid white;height: 500px;width: 1250px;margin: 50px;padding: 20px;display: flex;justify-content:start
+    ;
+}
+#CONTAINER2
+{
+    background-color: skyblue;border: 5px solid white;height: 500px;width: 1250px;margin: 50px;padding: 20px;display: flex;justify-content: end;
+}
+#CONTAINER3
+{
+    background-color: skyblue;border: 5px solid white;height: 500px;width: 1250px;margin: 50px;padding: 20px;display: flex;justify-content: center;
+}
+#CONTAINER4
+{
+    background-color: skyblue;border: 5px solid white;height: 500px;width: 1250px;margin: 50px;padding: 20px;display: flex;justify-content:space-around;
+}
+#CONTAINER5
+{
+    background-color: skyblue;border: 5px solid white;height: 500px;width: 1250px;margin: 50px;padding: 20px;display: flex;justify-content:space-between;
+}
+#CONTAINER6
+{
+    background-color: skyblue;border: 5px solid white;height: 500px;width: 1250px;margin: 50px;padding: 20px;display: flex;justify-content:space-evenly;
+}
+.box
+{
+    height: 100px;width: 100px;margin: 5px;border: 5px solid black;
+}
+#FIRST1
+{
+    background-color: hotpink;
+}
+#SECOND1
+{
+    background-color: blue;
+}
+#THIRD1
+{
+    background-color: yellow;
+}
+#FOURTH1
+{
+    background-color: aqua;
+}
+#FIVE1
+{
+    background-color:darkgreen;
+}
+#SIXTH1
+{
+    background-color:darkorange;
+}
+#FIRST2
+{
+    background-color: hotpink;
+}
+#SECOND2
+{
+    background-color: blue;
+}
+#THIRD2
+{
+    background-color: yellow;
+}
+#FOURTH2
+{
+    background-color: aqua;
+}
+#FIVE2
+{
+    background-color:darkgreen;
+}
+#SIXTH2
+{
+    background-color:darkorange;
+}
+#FIRST3
+{
+    background-color: hotpink;
+}
+#SECOND3
+{
+    background-color: blue;
+}
+#THIRD3
+{
+    background-color: yellow;
+}
+#FOURTH3
+{
+    background-color: aqua;
+}
+#FIVE3
+{
+    background-color:darkgreen;
+}
+#SIXTH3
+{
+    background-color:darkorange;
+}
+#FIRST4
+{
+    background-color: hotpink;
+}
+#SECOND4
+{
+    background-color: blue;
+}
+#THIRD4
+{
+    background-color: yellow;
+}
+#FOURTH4
+{
+    background-color: aqua;
+}
+#FIVE4
+{
+    background-color:darkgreen;
+}
+#SIXTH4
+{
+    background-color:darkorange;
+}
+#FIRST5
+{
+    background-color: hotpink;
+}
+#SECOND5
+{
+    background-color: blue;
+}
+#THIRD5
+{
+    background-color: yellow;
+}
+#FOURTH5
+{
+    background-color: aqua;
+}
+#FIVE5
+{
+    background-color:darkgreen;
+}
+#SIXTH5
+{
+    background-color:darkorange;
+}
+#FIRST6
+{
+    background-color: hotpink;
+}
+#SECOND6
+{
+    background-color: blue;
+}
+#THIRD6
+{
+    background-color: yellow;
+}
+#FOURTH6
+{
+    background-color: aqua;
+}
+#FIVE6
+{
+    background-color:darkgreen;
+}
+#SIXTH6
+{
+    background-color:darkorange;
+}

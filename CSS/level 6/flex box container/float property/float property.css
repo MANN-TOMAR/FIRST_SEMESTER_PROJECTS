@@ -1,0 +1,7 @@
+header{text-align: center;}
+#container
+{border: 5px solid black;height: 500px;width: 1250px;margin: 20px; padding: 20px;;}
+#first
+{background-color: red;height: 500px;width: 500px;float: left;border: 5px solid black}
+#second
+{background-color: blue;height: 500px;width: 500px;float: right;border: 5px solid black}
