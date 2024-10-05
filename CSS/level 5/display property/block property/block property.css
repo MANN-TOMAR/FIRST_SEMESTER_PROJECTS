@@ -1,0 +1,16 @@
+body{background-color: skyblue;color: black;margin: 50px;padding: 0px;}
+#block1
+{
+    background-color: hotpink;color: blue;margin: 10px;
+}
+#block2
+{
+    background-color: hotpink;color: blue;margin: 10px;
+}
+
+#block3
+{
+    background-color: hotpink;color: blue;margin: 10px;
+}
+
+#inline{background-color: orangered;color: black;border: 5px solid;display: block;}

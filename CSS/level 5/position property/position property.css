@@ -1,0 +1,15 @@
+body{background-color: skyblue;color: black;margin: 40px;padding: 0px;text-transform: uppercase;}
+#first{background-color: white;height: 300px;width: 300px;position: absolute 1000px 1000px;}
+#SECOND{background-color: white;height: 200px;width: 200px;position: static;}
+#third{background-color: white;height: 200px;width: 200px;position: absolute; top:20px; left:80vw;z-index:1}
+#fourth{background-color: white;height: 200px;width: 200px;position: absolute;top:90vh;left:50vw;}
+#fifth{background-color: white;height: 200px;width: 200px;position: absolute; top:30px; left:75vw;z-index: 0;}
+#username{background-color: black;color: white;
+    position: relative;
+    top: 40px;
+    left: 340px;}
+#submit{background-color: black;color: white;position: fixed; top:10vh; left:90vb;}
+#box{background-color: black;color: white;
+    position: relative;
+    top: 43px;
+    left: 340px;}

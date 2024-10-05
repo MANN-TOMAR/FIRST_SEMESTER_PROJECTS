@@ -1,0 +1,15 @@
+*{margin: 0;padding: 0;}
+body{background-color: skyblue;color: black;}
+header{background-color: white;text-align: center;padding: 10PX;}
+header nav a{text-decoration: none; padding: 50PX;margin: 50PX;}
+#first{height: 50px;width: 50px;background-color: green;;border-radius: 50%;margin: 50px;}
+.box
+{
+ background-color: hotpink;margin: 30px;height: 100px;width: 100px;display:inline-block;
+}
+#container{border: 5px solid black;}
+#fifth{position: fixed; right: 10px;z-index: 3;}
+.box1{ background-color: hotpink;margin: 30px;height: 100px;width: 100px;
+}
+.box2{ background-color: lightgreen;margin: 30px;height: 100px;width: 100px;position: relative;left: 1349px;}
+footer{background-color: black;color:white;padding: 30px;text-align: center;}
