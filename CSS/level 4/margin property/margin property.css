@@ -1,0 +1,4 @@
+body{margin: 0px;padding: 0px;}
+#first{background-color: skyblue;margin:20px ;}
+#second{background-color: hotpink;margin: 10px 30px 50px 70px;}
+#third{background-color: lightgreen;text-transform: uppercase;text-align: center;margin: 10px;}
