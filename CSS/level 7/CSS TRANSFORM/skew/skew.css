@@ -1,0 +1,65 @@
+*
+{
+    background-color: aqua;
+    margin: 0px;
+    padding-inline: 0px;
+}
+header{
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+#container
+{
+    background-color: white;
+    margin: 10px;
+    border: 5px solid black;
+    height: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box
+{
+    height: 250px;
+    width: 250px;
+    border: 5px solid black;
+    margin: 30px;
+    transition: all 1s steps(100) 0s;
+}
+#box1
+{
+    background-color: yellow;
+}
+#box1:hover
+{
+    background-color: green;
+    transform: skew(-45deg);
+}
+#box2
+{
+    background-color: skyblue;
+}
+#box2:hover
+{
+    background-color: hotpink;
+    transform: skew(45deg);
+}
+#box2
+{
+    background-color: orange;
+}
+#box3:hover
+{
+    background-color: lightsalmon;
+    transform: skew(90deg);
+}
+#box2
+{
+    background-color:red ;
+}
+#box4:hover
+{
+    background-color: darkblue;
+    transform: skew(45deg);
+}

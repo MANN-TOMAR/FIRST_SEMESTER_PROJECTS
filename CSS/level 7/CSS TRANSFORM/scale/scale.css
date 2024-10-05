@@ -1,0 +1,72 @@
+*{
+    margin: 0PX;
+    padding: 0px;
+    background-color: cyan;
+}
+header
+{
+    color: white;
+    background-color: black;
+    text-align: center;
+    text-transform: uppercase;
+}
+#container
+{
+    background-color: skyblue;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    border: 5px solid black;
+    margin: 10px;
+    height: 300px;
+
+
+}
+.box
+{
+    height: 250px;
+    width: 250px;
+    margin: 20px;
+    border: 5px solid black;
+    transition: all .1s steps(5) 0s;
+}
+#box1
+{
+    background-color: blue;
+}
+#box1:hover
+{
+    background-color: lightgreen;
+    transform: scale(.2);
+
+}
+#box2
+{
+    background-color: red;
+}
+#box2:hover
+{
+    background-color: chocolate;
+    transform: scalex(.5);
+
+}
+#box3
+{
+    background-color: yellow;
+}
+#box3:hover
+{
+    background-color: crimson;
+    transform: scaley(.8);
+
+}
+#box4
+{
+    background-color: hotpink;
+}
+#box4:hover
+{
+    background-color: darkorange;
+    transform: scale(0.75);
+
+}

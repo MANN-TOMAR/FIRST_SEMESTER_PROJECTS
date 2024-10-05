@@ -1,0 +1,94 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+header {
+  text-align: center;
+  color: white;
+  background-color: black;
+  margin: 5px;
+}
+#CONTAINER {
+  height: 140px;
+  border: 5px solid black;
+  margin: 5px;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 1s steps(4) 1s;
+}
+#BOX1 {
+  height: 100px;
+  width: 90px;
+  border: 3px solid black;
+  margin: 30px;
+  background-color: blueviolet;
+}
+
+#BOX1:hover {
+    height: 120px;
+    width: 100px;
+    border: 3px solid black;
+    margin: 30px;
+    background-color:white;
+    transform: rotatez(180deg);
+    transition: all 1s steps(100) ;
+  }
+
+
+#BOX2 {
+  height: 100px;
+  width: 90px;
+  border: 3px solid black;
+  margin: 30px;
+  background-color: brown;
+}
+
+#BOX2:hover {
+    height: 150px;
+    width: 100px;
+    border: 3px solid black;
+    margin: 30px;
+    background-color: yellow;
+    transform: rotatex(180deg);
+    transition: all 1s steps(100) ;
+
+  }
+#BOX3 {
+  height: 100px;
+  width: 90px;
+  border: 3px solid black;
+  margin: 30px;
+  background-color: coral;
+}
+
+#BOX3:hover {
+    height: 150px;
+    width: 100px;
+    border: 3px solid black;
+    margin: 30px;
+    background-color: hotpink;
+    transform: rotatey(90deg);
+    transition: all 1s steps(100) ;
+
+  }
+#BOX4 {
+  height: 100px;
+  width: 90px;
+  border: 3px solid black;
+  margin: 30px;
+  background-color: darkgreen;
+}
+
+#BOX4:hover {
+    height: 150px;
+    width: 100px;
+    border: 3px solid black;
+    margin: 30px;
+    background-color: skyblue;
+    transform: rotatez(45deg);
+    transition: all 1s steps(100) ;
+
+  }
+  

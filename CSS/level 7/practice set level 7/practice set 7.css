@@ -1,0 +1,38 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    background-color: skyblue;
+    color: white;
+}
+header{
+    background-color: black;
+    margin: 5px;
+    text-align: center;
+}
+
+#container
+{
+    background-color: pink;
+    border: 5px solid black;
+    margin: 5px;
+    height: 25px;
+    width: 90%;
+    border-radius: 50px;
+    position: relative ;
+    left: 4%;
+}
+#progress-bar
+{
+    background-color: red;
+    height: 100%;
+    width: 100%;
+    border-radius: 50px;
+    animation: progress 3s normal 0s infinite;
+}
+@keyframes progress {
+    0% {width:0%}
+    90%{width: 90%;}
+    95%{width: 70%;}
+    100% {width: 100%;}
+}
