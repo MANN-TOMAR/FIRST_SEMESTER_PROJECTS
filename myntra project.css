@@ -13,7 +13,8 @@ body
     align-items: center;
     flex-shrink: 1;
     flex-wrap: wrap;
-    min-width: 1028px;
+    width:100%;
+/*     min-width: 1028px; */
     
 
 }
