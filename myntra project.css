@@ -11,6 +11,10 @@ body
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-shrink: 1;
+    flex-wrap: wrap;
+    min-width: 1028px;
+    
 
 }
 header
@@ -301,7 +305,7 @@ footer
     flex-wrap: wrap;
     padding-top: 20px;
     align-items: center;
-    width: 100%;
+    min-width: 100%;
 }
 footer div
 {
